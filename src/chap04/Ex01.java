@@ -23,3 +23,7 @@ public class Ex01 {
 		System.out.println("당신의 학점은: "+grade);
 	}
 }
+
+
+
+
