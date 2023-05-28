@@ -31,7 +31,6 @@ public class Exam04 {
 				System.out.printf("%d년 %d월의 마지막 일자는 29일입니다.", year, month);
 			} else {
 				System.out.printf("%d년 %d월의 마지막 일자는 28일입니다.", year, month);
-
 			}
 		} else if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
 			System.out.printf("%d년 %d월의 마지막 일자는 31일입니다.", year, month);

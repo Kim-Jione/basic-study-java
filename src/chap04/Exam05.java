@@ -34,7 +34,7 @@ public class Exam05 {
 //		switch (user) {
 //		case 1: {
 //			switch (computerRan) {
-//			case 1:
+//			case 1:	
 //				System.out.println("사용자 가위, 컴퓨터 가위");
 //				System.out.println("가위바위보 결과 ==> 비겼습니다.");
 //				break;
