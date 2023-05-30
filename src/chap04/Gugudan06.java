@@ -17,8 +17,8 @@ public class Gugudan06 {
 	public static void main(String[] args) {
 		int dan, num;
 
-		for (num = 1; num <= 9; num++) {
-			for (dan = 2; dan <= 9; dan++) {
+		for (num = 1; num <= 9; num++) {//ї­
+			for (dan = 2; dan <= 9; dan++) {//За
 				if(dan==9) {
 					System.out.printf("%d * %d = %2d      \n", dan, num, dan * num);
 					
@@ -31,3 +31,13 @@ public class Gugudan06 {
 
 	}
 }
+
+
+
+
+
+
+
+
+
+
