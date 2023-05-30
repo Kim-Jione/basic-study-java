@@ -20,11 +20,17 @@ package chap04;
 
 */
 
-public class Gugudan04 {
+public class Gugudan05 {
 
 	public static void main(String[] args) {
 		int dan, num;
 		for (dan = 2; dan <= 9; dan++) {
+			if (dan == 2) {
+				System.out.printf("  [ %d ´Ü ]", dan);
+			} else {
+				System.out.printf("\n\n  [ %d ´Ü ]", dan);
+
+			}
 			for (num = 1; num <= 9; num++) {
 				System.out.printf("\n %d * %d = %2d", dan, num, dan * num);
 			}
