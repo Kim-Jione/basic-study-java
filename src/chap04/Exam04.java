@@ -21,21 +21,26 @@ public class Exam04 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int year, month, monthLastDay = 31;
 		System.out.println("년도를 월을 입력하세요.: ");
-		int year = sc.nextInt();
-		int month = sc.nextInt();
-
-		if (month == 2) {
-			if (year / 4 == (int) year / 4 && year / 100 != (int) year / 100 || year / 400 == (int) year / 400) {
-
-				System.out.printf("%d년 %d월의 마지막 일자는 29일입니다.", year, month);
+		year = sc.nextInt();
+		month = sc.nextInt();
+		sc.close();
+		switch (month) {
+		case 4:
+		case 6:
+		case 9:
+		case 11:
+			monthLastDay = 30;
+			break;
+		case 2:
+			if (year % 4 == 0 && year % 100 != 0 || (year % 400 == 0)) {
+				monthLastDay = 29;
 			} else {
-				System.out.printf("%d년 %d월의 마지막 일자는 28일입니다.", year, month);
+				monthLastDay = 28;
 			}
-		} else if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
-			System.out.printf("%d년 %d월의 마지막 일자는 31일입니다.", year, month);
-		} else {
-			System.out.printf("%d년 %d월의 마지막 일자는 30일입니다.", year, month);
+			break;
 		}
+		System.out.printf("%d년 %d월의 마지막 일자는 %d일 입니다.", year, month, monthLastDay);
 	}
 }

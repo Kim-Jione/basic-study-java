@@ -28,23 +28,29 @@ public class Exam03 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("년도를 입력하세요: ");
-		double year = sc.nextDouble();
+		int year;
+		String result = "";
 
-//		if (year / 4 == (int) year / 4 && year / 100 != (int) year / 100 ) {
-//			System.out.println("입력하신 년도는 윤년입니다.");
-//		} else if (year / 100 == (int) year / 100 && year / 400 != (int) year / 400) {
-//			System.out.println("입력하신 년도는 평년입니다.");
-//		} else if (year / 400 == (int) year / 400) {
-//			System.out.println("입력하신 년도는 윤년입니다.");
-//		}else {
-//			System.out.println("입력하신 년도는 평년입니다.");
+		System.out.println("년도를 입력하세요: ");
+		year = sc.nextInt();
+		sc.close();
+
+//		if (year % 400 == 0) {// 4의 배수이면서 100의 배수가 아닌 것, 자기와 범위가 좁은 애들까지르는 결함할 수 없ㄷ.ㅏ
+//			result="윤년";
+//		} else if (year % 100==0) {
+//			result="평년";
+//		} else if (year % 4== 0) {
+//			result="윤년";
+//		 }else {
+//			result="평년";
 //		}
-		
-		if (year / 4 == (int) year / 4 && year / 100 != (int) year / 100 || year / 400 == (int) year / 400 ) {
-			System.out.println("입력하신 년도는 윤년입니다.");
+//		System.out.printf("입력하신 %d년은 %s입니다.", year, result);
+
+		if (year % 4 == 0 && year % 100 != 0 || (year % 400 == 0)) {
+			result = "윤년";
 		} else {
-			System.out.println("입력하신 년도는 평년입니다.");
+			result = "평년";
 		}
+		System.out.printf("입력하신 %d년은 %s입니다.", year, result);
 	}
 }
