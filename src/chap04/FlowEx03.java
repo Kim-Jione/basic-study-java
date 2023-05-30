@@ -1,7 +1,7 @@
 package chap04;
 import java.util.*; // Scanner클래스를 사용하기 위해 추가
 
-class FlowEx3 {
+class FlowEx03 {
 	public static void main(String[] args) {  
 		int input;
 

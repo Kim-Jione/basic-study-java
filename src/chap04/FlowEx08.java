@@ -1,7 +1,7 @@
 package chap04;
 import java.util.*;
 
-class FlowEx8 {
+class FlowEx08 {
 	public static void main(String[] args) { 
 		char gender;
 		String regNo = "";

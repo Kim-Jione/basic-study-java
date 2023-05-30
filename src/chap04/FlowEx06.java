@@ -1,7 +1,7 @@
 package chap04;
 import java.util.*;
 
-class FlowEx6 {
+class FlowEx06 {
 	public static void main(String[] args) { 
 		int month = 0;
 

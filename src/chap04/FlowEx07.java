@@ -1,7 +1,7 @@
 package chap04;
 import java.util.*;
 
-class FlowEx7 {
+class FlowEx07 {
 	public static void main(String[] args) { 
 		int user, com;
 

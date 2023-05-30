@@ -1,7 +1,7 @@
 package chap04;
 
 
-class FlowEx1 {
+class FlowEx01 {
 	public static void main(String[] args) { 
 		int x= 0;
 

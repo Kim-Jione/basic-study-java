@@ -1,7 +1,7 @@
 package chap04;
 import java.util.*;
 
-class FlowEx9 {
+class FlowEx09 {
 	public static void main(String[] args) { 
 		int score  = 0;
 		char grade = ' ';
