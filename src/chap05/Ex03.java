@@ -20,10 +20,7 @@ public class Ex03 {
 			total += stuScores[i];
 		}
 		System.out.println("\n[ÀÔ·ÂÇÑ ÇÐ»ýÀÇ Á¡¼ö]");
-		for (int i = 0; i < stuScores.length; i++) {
-			System.out.println(stuScores[i] + "  ");
-		}
 
-		System.out.printf("\nÃÑÁ¡: %d, Æò±Õ: %.2f" , total, (double)total/stuScores.length);
+		System.out.printf("\nÃÑÁ¡: %d, Æò±Õ: %.2f", total, (double) total / stuScores.length);
 	}
 }
