@@ -1,8 +1,8 @@
 package chap06;
 
-public class Circle {
+public class Circle01 {
 
-	double pi = 3.141592;
+	double pi;
 	int radius;
 
 	void setRadius(int rad) {

@@ -1,6 +1,6 @@
 package chap06;
 
-public class CircleTest2 {
+public class TvTest04 {
 
 	public static void main(String[] args) {
 		Tv t1, t2;
