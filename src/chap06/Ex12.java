@@ -13,5 +13,5 @@ public class Ex12 {
 		
 		System.out.println("fti1: "+fti1.num);
 		System.out.println("fti2: "+fti2.num);
-	}
+	}	
 }
