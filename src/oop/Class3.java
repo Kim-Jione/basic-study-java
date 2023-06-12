@@ -1,16 +1,8 @@
 package oop;
 
 public class Class3 {
-	static int classVar = 1234; // 0(자동 초기화)
 	int instanceVar = 5678; // 0(자동 초기화)
-
-	static void classMethodA() {
-		System.out.println("classMethodA()");
-	}
-
-	static void classMethodB() {
-		System.out.println("classVar: " + classVar);
-	}
+	static int classVar = 1234; // 0(자동 초기화)
 
 	void instanceMethodA() {
 		System.out.println("instanceMethodA()");
@@ -22,4 +14,13 @@ public class Class3 {
 		System.out.println("instanceVar: " + this.instanceVar);
 		this.instanceMethodA();
 	}
+
+	static void classMethodA() {
+		System.out.println("classMethodA()");
+	}
+
+	static void classMethodB() {
+		System.out.println("classVar: " + classVar);
+	}
+
 }
