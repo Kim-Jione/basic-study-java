@@ -1,28 +1,13 @@
 package oop;
 
 public class Class6 {
-	String name; // 필수
-	String gender; // 필수
-	int age; // 필수
-	String hobby; // 선택
-
-	Class6() {
-		
+	static int classVar;
+	int instanceVar;
+	static {
+		Class6.classVar = 1234;
 	}
 
-	Class6(String name, String gender, int age) {
-		this(name, gender, age, null);
-	}
-
-	Class6(String name, String gender, int age, String hobby) {
-		this.name = name;
-		this.gender = gender;
-		this.age = age;
-		this.hobby = hobby;
-
-	}
-
-	public String toString() {
-		return this.name + " / " + this.gender + " / " + this.age + " / " + this.hobby;
+	Class6(int instanceVar) {
+		this.instanceVar = instanceVar;
 	}
 }
