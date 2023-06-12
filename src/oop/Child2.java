@@ -13,5 +13,6 @@ public class Child2 extends Parent {
 
 	void methodB() {
 		System.out.println("Parent num1: "+super.num1);
+		super.methodA();// 부모의 숨겨진 멤버를 사용하고 싶을 때 사용
 	}
 }
