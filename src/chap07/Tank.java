@@ -9,7 +9,8 @@ public class Tank extends Unit {
 	@Override
 	void move(int x, int y) {
 		System.out.println("탱크가 " + x + ", " + y + " 위치로 이동합니다.");
-
+		this.x=x;
+		this.y=y;
 	}
 
 	void changeMode() {

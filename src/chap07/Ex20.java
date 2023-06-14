@@ -3,7 +3,7 @@ package chap07;
 public class Ex20 {
 	// 유닛의 모든 기능을 수행하는 메서드
 	void play(Unit unit) {
-		unit.move(200, 200);
+		unit.move(unit.x, unit.y);
 		if (unit instanceof Marine) {
 			Marine marine = (Marine) unit;
 			marine.stimpack();
