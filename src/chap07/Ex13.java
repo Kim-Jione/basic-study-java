@@ -7,7 +7,7 @@ public class Ex13 {
 
 	public static void main(String[] args) {
 		Ex13 ex13 = new Ex13();
-		
+		Object o = new Object();
 		Car myCar = new Car();
 		FireEngine fire = new FireEngine();
 		Ambulance ambulance = new Ambulance();
