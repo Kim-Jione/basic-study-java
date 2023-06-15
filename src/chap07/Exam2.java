@@ -9,17 +9,5 @@ int [] lotto = new int[6];
 public class Exam2 {
 
 	public static void main(String[] args) {
-		int[] lotto = new int[6];
-
-		for (int i = 0; i < lotto.length; i++) {
-			int random = (int) (Math.random() * 45 + 1); // 랜덤 로또번호 생성
-			lotto[i] = random; // 배열에 6개의 랜덤 번호 저장
-			System.out.println(lotto[i]);
-		}
-		for (int j = 0; j < lotto.length; j++) {
-			if(lotto[j]>lotto[j-1]) {
-				
-			}
-		}
 	}
 }
