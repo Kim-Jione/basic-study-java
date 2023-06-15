@@ -9,5 +9,7 @@ int [] lotto = new int[6];
 public class Exam2 {
 
 	public static void main(String[] args) {
+		MyLotto lotto = new MyLotto();
+		System.out.println("로또번호: " + lotto);
 	}
 }
